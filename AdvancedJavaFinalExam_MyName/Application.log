@@ -1,0 +1,3212 @@
+2024-02-21 21:46:58 [background-preinit] INFO  o.h.v.i.u.Version                                  - HV000001: Hibernate Validator 6.2.0.Final 
+2024-02-21 21:46:59 [restartedMain] INFO  c.v.HelloWorldApplication                          - Starting HelloWorldApplication using Java 17 on DESKTOP-MGJBTQ0 with PID 13460 (C:\Users\giayn\Downloads\FinalExam_20230212\Backend\AdvancedJavaFinalExam_MyName\target\classes started by HP X360 in C:\Users\giayn\Downloads\FinalExam_20230212\Backend\AdvancedJavaFinalExam_MyName) 
+2024-02-21 21:46:59 [restartedMain] INFO  c.v.HelloWorldApplication                          - No active profile set, falling back to default profiles: default 
+2024-02-21 21:46:59 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable 
+2024-02-21 21:46:59 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG' 
+2024-02-21 21:47:00 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2024-02-21 21:47:00 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 91 ms. Found 2 JPA repository interfaces. 
+2024-02-21 21:47:01 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8080 (http) 
+2024-02-21 21:47:01 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8080"] 
+2024-02-21 21:47:01 [restartedMain] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat] 
+2024-02-21 21:47:01 [restartedMain] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.55] 
+2024-02-21 21:47:01 [restartedMain] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext 
+2024-02-21 21:47:01 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2538 ms 
+2024-02-21 21:47:01 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Starting... 
+2024-02-21 21:47:02 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Start completed. 
+2024-02-21 21:47:02 [restartedMain] INFO  o.h.j.i.u.LogHelper                                - HHH000204: Processing PersistenceUnitInfo [name: default] 
+2024-02-21 21:47:02 [restartedMain] INFO  o.h.Version                                        - HHH000412: Hibernate ORM core version 5.6.1.Final 
+2024-02-21 21:47:02 [restartedMain] INFO  o.h.a.c.Version                                    - HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2024-02-21 21:47:02 [restartedMain] INFO  o.h.d.Dialect                                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect 
+2024-02-21 21:47:03 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2024-02-21 21:47:03 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2024-02-21 21:47:04 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning 
+2024-02-21 21:47:05 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain                 - Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@899b29, org.springframework.security.web.context.SecurityContextPersistenceFilter@1dc11a93, org.springframework.security.web.header.HeaderWriterFilter@29f1048b, org.springframework.web.filter.CorsFilter@55a62e31, org.springframework.security.web.authentication.logout.LogoutFilter@3bf7b5c1, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@65a4d288, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@364eda1e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@47eb26cb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4a3ca34a, org.springframework.security.web.session.SessionManagementFilter@5073106d, org.springframework.security.web.access.ExceptionTranslationFilter@5127ef25, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@53d08dbb] 
+2024-02-21 21:47:05 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729 
+2024-02-21 21:47:05 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8080"] 
+2024-02-21 21:47:05 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8080 (http) with context path '' 
+2024-02-21 21:47:06 [restartedMain] INFO  c.v.HelloWorldApplication                          - Started HelloWorldApplication in 7.862 seconds (JVM running for 9.195) 
+2024-02-21 21:47:14 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2024-02-21 21:47:14 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet                          - Initializing Servlet 'dispatcherServlet' 
+2024-02-21 21:47:14 [http-nio-8080-exec-1] INFO  o.s.w.s.DispatcherServlet                          - Completed initialization in 4 ms 
+2024-02-21 21:47:14 [http-nio-8080-exec-2] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_,
+        department0_.created_date as created_2_1_,
+        department0_.`name` as name3_1_,
+        department0_.total_member as total_me4_1_,
+        department0_.`type` as type5_1_ 
+    from
+        Department department0_ 
+    where
+        1=1 
+    order by
+        department0_.total_member desc limit ? 
+2024-02-21 21:47:14 [http-nio-8080-exec-2] DEBUG o.h.SQL                                            - 
+    select
+        count(department0_.id) as col_0_0_ 
+    from
+        Department department0_ 
+    where
+        1=1 
+2024-02-21 21:47:14 [http-nio-8080-exec-2] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:14 [http-nio-8080-exec-2] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [9] 
+2024-02-21 21:47:14 [http-nio-8080-exec-2] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:14 [http-nio-8080-exec-2] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [8] 
+2024-02-21 21:47:14 [http-nio-8080-exec-2] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:14 [http-nio-8080-exec-2] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [7] 
+2024-02-21 21:47:14 [http-nio-8080-exec-2] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:14 [http-nio-8080-exec-2] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [6] 
+2024-02-21 21:47:14 [http-nio-8080-exec-2] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:14 [http-nio-8080-exec-2] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [5] 
+2024-02-21 21:47:14 [http-nio-8080-exec-2] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:14 [http-nio-8080-exec-2] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [4] 
+2024-02-21 21:47:14 [http-nio-8080-exec-2] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:14 [http-nio-8080-exec-2] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [3] 
+2024-02-21 21:47:14 [http-nio-8080-exec-2] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:14 [http-nio-8080-exec-2] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [2] 
+2024-02-21 21:47:14 [http-nio-8080-exec-2] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:14 [http-nio-8080-exec-2] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [1] 
+2024-02-21 21:47:14 [http-nio-8080-exec-2] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:14 [http-nio-8080-exec-2] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [10] 
+2024-02-21 21:47:20 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        count(*) as col_0_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:47:20 [http-nio-8080-exec-4] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [10] 
+2024-02-21 21:47:20 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:47:20 [http-nio-8080-exec-4] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [10] 
+2024-02-21 21:47:20 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    delete 
+    from
+        Department 
+    where
+        id=? 
+2024-02-21 21:47:20 [http-nio-8080-exec-4] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [10] 
+2024-02-21 21:47:20 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_,
+        department0_.created_date as created_2_1_,
+        department0_.`name` as name3_1_,
+        department0_.total_member as total_me4_1_,
+        department0_.`type` as type5_1_ 
+    from
+        Department department0_ 
+    where
+        1=1 
+    order by
+        department0_.total_member desc limit ? 
+2024-02-21 21:47:20 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:20 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [9] 
+2024-02-21 21:47:20 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:20 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [8] 
+2024-02-21 21:47:20 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:20 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [7] 
+2024-02-21 21:47:20 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:20 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [6] 
+2024-02-21 21:47:20 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:20 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [5] 
+2024-02-21 21:47:20 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:20 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [4] 
+2024-02-21 21:47:20 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:20 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [3] 
+2024-02-21 21:47:20 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:20 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [2] 
+2024-02-21 21:47:20 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:20 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [1] 
+2024-02-21 21:47:26 [http-nio-8080-exec-9] DEBUG o.h.SQL                                            - 
+    select
+        account0_.id as id1_0_,
+        account0_.department_id as departme7_0_,
+        account0_.first_name as first_na2_0_,
+        account0_.last_name as last_nam3_0_,
+        account0_.password as password4_0_,
+        account0_.`role` as role5_0_,
+        account0_.username as username6_0_,
+        concat(account0_.first_name,
+        ' ',
+        account0_.last_name)  as formula1_ 
+    from
+        `Account` account0_ limit ? 
+2024-02-21 21:47:26 [http-nio-8080-exec-9] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:47:26 [http-nio-8080-exec-9] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [5] 
+2024-02-21 21:47:26 [http-nio-8080-exec-9] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:47:26 [http-nio-8080-exec-9] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [1] 
+2024-02-21 21:47:26 [http-nio-8080-exec-9] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:47:26 [http-nio-8080-exec-9] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [2] 
+2024-02-21 21:47:26 [http-nio-8080-exec-9] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:47:26 [http-nio-8080-exec-9] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [8] 
+2024-02-21 21:47:26 [http-nio-8080-exec-9] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:47:26 [http-nio-8080-exec-9] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [9] 
+2024-02-21 21:47:26 [http-nio-8080-exec-9] DEBUG o.h.SQL                                            - 
+    select
+        count(account0_.id) as col_0_0_ 
+    from
+        `Account` account0_ 
+2024-02-21 21:47:32 [http-nio-8080-exec-2] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as col_0_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.`name`=? limit ? 
+2024-02-21 21:47:32 [http-nio-8080-exec-2] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [VARCHAR] - [Thư kí] 
+2024-02-21 21:47:32 [http-nio-8080-exec-2] ERROR c.v.c.e.RestExceptionHandler                       - Validation failed for argument [0] in public void com.vti.controller.DepartmentController.createDepartment(com.vti.form.department.CreatingDepartmentForm): [Field error in object 'creatingDepartmentForm' on field 'name': rejected value [Thư kí]; codes [DepartmentNameNotExists.creatingDepartmentForm.name,DepartmentNameNotExists.name,DepartmentNameNotExists.java.lang.String,DepartmentNameNotExists]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [creatingDepartmentForm.name,name]; arguments []; default message [name]]; default message [Department name exists already]] 
+{name=Department name exists already} 
+org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void com.vti.controller.DepartmentController.createDepartment(com.vti.form.department.CreatingDepartmentForm): [Field error in object 'creatingDepartmentForm' on field 'name': rejected value [Thư kí]; codes [DepartmentNameNotExists.creatingDepartmentForm.name,DepartmentNameNotExists.name,DepartmentNameNotExists.java.lang.String,DepartmentNameNotExists]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [creatingDepartmentForm.name,name]; arguments []; default message [name]]; default message [Department name exists already]] 
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.resolveArgument(RequestResponseBodyMethodProcessor.java:141) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:179) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:146) ~[spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) [spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) [spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.3.13.jar:5.3.13]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) [spring-webmvc-5.3.13.jar:5.3.13]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) [tomcat-embed-core-9.0.55.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.3.13.jar:5.3.13]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) [tomcat-embed-core-9.0.55.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.security.web.authentication.www.BasicAuthenticationFilter.doFilterInternal(BasicAuthenticationFilter.java:150) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91) [spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) [spring-security-web-5.6.0.jar:5.6.0]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) [spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) [spring-web-5.3.13.jar:5.3.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.13.jar:5.3.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.13.jar:5.3.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.3.13.jar:5.3.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.3.13.jar:5.3.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.55.jar:9.0.55]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2024-02-21 21:47:32 [http-nio-8080-exec-2] WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver    - Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void com.vti.controller.DepartmentController.createDepartment(com.vti.form.department.CreatingDepartmentForm): [Field error in object 'creatingDepartmentForm' on field 'name': rejected value [Thư kí]; codes [DepartmentNameNotExists.creatingDepartmentForm.name,DepartmentNameNotExists.name,DepartmentNameNotExists.java.lang.String,DepartmentNameNotExists]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [creatingDepartmentForm.name,name]; arguments []; default message [name]]; default message [Department name exists already]] ] 
+2024-02-21 21:47:33 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_,
+        department0_.created_date as created_2_1_,
+        department0_.`name` as name3_1_,
+        department0_.total_member as total_me4_1_,
+        department0_.`type` as type5_1_ 
+    from
+        Department department0_ 
+    where
+        1=1 
+    order by
+        department0_.total_member desc limit ? 
+2024-02-21 21:47:33 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:33 [http-nio-8080-exec-3] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [9] 
+2024-02-21 21:47:33 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:33 [http-nio-8080-exec-3] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [8] 
+2024-02-21 21:47:33 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:33 [http-nio-8080-exec-3] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [7] 
+2024-02-21 21:47:33 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:33 [http-nio-8080-exec-3] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [6] 
+2024-02-21 21:47:33 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:33 [http-nio-8080-exec-3] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [5] 
+2024-02-21 21:47:33 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:33 [http-nio-8080-exec-3] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [4] 
+2024-02-21 21:47:33 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:33 [http-nio-8080-exec-3] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [3] 
+2024-02-21 21:47:33 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:33 [http-nio-8080-exec-3] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [2] 
+2024-02-21 21:47:33 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:33 [http-nio-8080-exec-3] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [1] 
+2024-02-21 21:47:36 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as col_0_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.`name`=? limit ? 
+2024-02-21 21:47:36 [http-nio-8080-exec-4] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [VARCHAR] - [Thư kí123] 
+2024-02-21 21:47:36 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as col_0_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.`name`=? limit ? 
+2024-02-21 21:47:36 [http-nio-8080-exec-4] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [VARCHAR] - [Thư kí123] 
+2024-02-21 21:47:36 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    insert 
+    into
+        Department
+        (created_date, `name`, total_member, `type`) 
+    values
+        (?, ?, ?, ?) 
+2024-02-21 21:47:36 [http-nio-8080-exec-4] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [TIMESTAMP] - [Wed Feb 21 21:47:36 ICT 2024] 
+2024-02-21 21:47:36 [http-nio-8080-exec-4] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [2] as [VARCHAR] - [Thư kí123] 
+2024-02-21 21:47:36 [http-nio-8080-exec-4] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [3] as [INTEGER] - [0] 
+2024-02-21 21:47:36 [http-nio-8080-exec-4] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [4] as [VARCHAR] - [Dev] 
+2024-02-21 21:47:36 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_,
+        department0_.created_date as created_2_1_,
+        department0_.`name` as name3_1_,
+        department0_.total_member as total_me4_1_,
+        department0_.`type` as type5_1_ 
+    from
+        Department department0_ 
+    where
+        1=1 
+    order by
+        department0_.total_member desc limit ? 
+2024-02-21 21:47:36 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        count(department0_.id) as col_0_0_ 
+    from
+        Department department0_ 
+    where
+        1=1 
+2024-02-21 21:47:36 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:36 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [9] 
+2024-02-21 21:47:36 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:36 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [8] 
+2024-02-21 21:47:36 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:36 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [7] 
+2024-02-21 21:47:36 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:36 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [6] 
+2024-02-21 21:47:36 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:36 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [5] 
+2024-02-21 21:47:36 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:36 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [4] 
+2024-02-21 21:47:36 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:36 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [3] 
+2024-02-21 21:47:36 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:36 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [2] 
+2024-02-21 21:47:36 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:36 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [1] 
+2024-02-21 21:47:36 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:36 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [11] 
+2024-02-21 21:47:53 [http-nio-8080-exec-7] DEBUG o.h.SQL                                            - 
+    select
+        account0_.id as id1_0_,
+        account0_.department_id as departme7_0_,
+        account0_.first_name as first_na2_0_,
+        account0_.last_name as last_nam3_0_,
+        account0_.password as password4_0_,
+        account0_.`role` as role5_0_,
+        account0_.username as username6_0_,
+        concat(account0_.first_name,
+        ' ',
+        account0_.last_name)  as formula1_ 
+    from
+        `Account` account0_ limit ? 
+2024-02-21 21:47:53 [http-nio-8080-exec-7] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:47:53 [http-nio-8080-exec-7] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [5] 
+2024-02-21 21:47:53 [http-nio-8080-exec-7] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:47:53 [http-nio-8080-exec-7] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [1] 
+2024-02-21 21:47:53 [http-nio-8080-exec-7] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:47:53 [http-nio-8080-exec-7] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [2] 
+2024-02-21 21:47:53 [http-nio-8080-exec-7] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:47:53 [http-nio-8080-exec-7] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [8] 
+2024-02-21 21:47:53 [http-nio-8080-exec-7] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:47:53 [http-nio-8080-exec-7] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [9] 
+2024-02-21 21:47:53 [http-nio-8080-exec-7] DEBUG o.h.SQL                                            - 
+    select
+        count(account0_.id) as col_0_0_ 
+    from
+        `Account` account0_ 
+2024-02-21 21:47:53 [http-nio-8080-exec-8] DEBUG o.h.SQL                                            - 
+    select
+        count(*) as col_0_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:47:53 [http-nio-8080-exec-8] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [9] 
+2024-02-21 21:47:53 [http-nio-8080-exec-8] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:47:53 [http-nio-8080-exec-8] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [9] 
+2024-02-21 21:47:53 [http-nio-8080-exec-8] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:53 [http-nio-8080-exec-8] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [9] 
+2024-02-21 21:47:57 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        count(*) as col_0_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:47:57 [http-nio-8080-exec-10] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [9] 
+2024-02-21 21:47:57 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:47:57 [http-nio-8080-exec-10] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [9] 
+2024-02-21 21:47:57 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    update
+        Department 
+    set
+        total_member=?,
+        `type`=? 
+    where
+        id=? 
+2024-02-21 21:47:57 [http-nio-8080-exec-10] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [9] 
+2024-02-21 21:47:57 [http-nio-8080-exec-10] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [2] as [VARCHAR] - [Dev] 
+2024-02-21 21:47:57 [http-nio-8080-exec-10] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [3] as [INTEGER] - [9] 
+2024-02-21 21:47:57 [http-nio-8080-exec-1] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_,
+        department0_.created_date as created_2_1_,
+        department0_.`name` as name3_1_,
+        department0_.total_member as total_me4_1_,
+        department0_.`type` as type5_1_ 
+    from
+        Department department0_ 
+    where
+        1=1 
+    order by
+        department0_.total_member desc limit ? 
+2024-02-21 21:47:57 [http-nio-8080-exec-1] DEBUG o.h.SQL                                            - 
+    select
+        count(department0_.id) as col_0_0_ 
+    from
+        Department department0_ 
+    where
+        1=1 
+2024-02-21 21:47:57 [http-nio-8080-exec-1] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:57 [http-nio-8080-exec-1] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [9] 
+2024-02-21 21:47:57 [http-nio-8080-exec-1] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:57 [http-nio-8080-exec-1] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [8] 
+2024-02-21 21:47:57 [http-nio-8080-exec-1] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:57 [http-nio-8080-exec-1] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [7] 
+2024-02-21 21:47:57 [http-nio-8080-exec-1] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:57 [http-nio-8080-exec-1] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [6] 
+2024-02-21 21:47:57 [http-nio-8080-exec-1] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:57 [http-nio-8080-exec-1] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [5] 
+2024-02-21 21:47:57 [http-nio-8080-exec-1] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:57 [http-nio-8080-exec-1] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [4] 
+2024-02-21 21:47:57 [http-nio-8080-exec-1] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:57 [http-nio-8080-exec-1] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [3] 
+2024-02-21 21:47:57 [http-nio-8080-exec-1] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:57 [http-nio-8080-exec-1] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [2] 
+2024-02-21 21:47:57 [http-nio-8080-exec-1] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:57 [http-nio-8080-exec-1] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [1] 
+2024-02-21 21:47:57 [http-nio-8080-exec-1] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:47:57 [http-nio-8080-exec-1] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [11] 
+2024-02-21 21:48:05 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        count(*) as col_0_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id in (
+            ? , ? , ?
+        ) 
+2024-02-21 21:48:05 [http-nio-8080-exec-3] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [7] 
+2024-02-21 21:48:05 [http-nio-8080-exec-3] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [2] as [INTEGER] - [8] 
+2024-02-21 21:48:05 [http-nio-8080-exec-3] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [3] as [INTEGER] - [9] 
+2024-02-21 21:48:05 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        count(*) as col_0_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id in (
+            ? , ? , ?
+        ) 
+2024-02-21 21:48:05 [http-nio-8080-exec-3] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [7] 
+2024-02-21 21:48:05 [http-nio-8080-exec-3] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [2] as [INTEGER] - [8] 
+2024-02-21 21:48:05 [http-nio-8080-exec-3] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [3] as [INTEGER] - [9] 
+2024-02-21 21:48:05 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:48:05 [http-nio-8080-exec-3] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [7] 
+2024-02-21 21:48:05 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:48:05 [http-nio-8080-exec-3] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [8] 
+2024-02-21 21:48:05 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:48:05 [http-nio-8080-exec-3] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [9] 
+2024-02-21 21:48:05 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    delete 
+    from
+        Department 
+    where
+        id=? 
+2024-02-21 21:48:05 [http-nio-8080-exec-3] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [7] 
+2024-02-21 21:48:05 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    delete 
+    from
+        Department 
+    where
+        id=? 
+2024-02-21 21:48:05 [http-nio-8080-exec-3] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [8] 
+2024-02-21 21:48:05 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    delete 
+    from
+        Department 
+    where
+        id=? 
+2024-02-21 21:48:05 [http-nio-8080-exec-3] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [9] 
+2024-02-21 21:48:05 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_,
+        department0_.created_date as created_2_1_,
+        department0_.`name` as name3_1_,
+        department0_.total_member as total_me4_1_,
+        department0_.`type` as type5_1_ 
+    from
+        Department department0_ 
+    where
+        1=1 
+    order by
+        department0_.total_member desc limit ? 
+2024-02-21 21:48:05 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:48:05 [http-nio-8080-exec-4] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [6] 
+2024-02-21 21:48:05 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:48:05 [http-nio-8080-exec-4] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [5] 
+2024-02-21 21:48:05 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:48:05 [http-nio-8080-exec-4] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [4] 
+2024-02-21 21:48:05 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:48:05 [http-nio-8080-exec-4] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [3] 
+2024-02-21 21:48:05 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:48:05 [http-nio-8080-exec-4] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [2] 
+2024-02-21 21:48:05 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:48:05 [http-nio-8080-exec-4] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [1] 
+2024-02-21 21:48:05 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:48:05 [http-nio-8080-exec-4] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [11] 
+2024-02-21 21:48:10 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        count(*) as col_0_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id in (
+            ? , ? , ?
+        ) 
+2024-02-21 21:48:10 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [4] 
+2024-02-21 21:48:10 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [2] as [INTEGER] - [5] 
+2024-02-21 21:48:10 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [3] as [INTEGER] - [6] 
+2024-02-21 21:48:10 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        count(*) as col_0_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id in (
+            ? , ? , ?
+        ) 
+2024-02-21 21:48:10 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [4] 
+2024-02-21 21:48:10 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [2] as [INTEGER] - [5] 
+2024-02-21 21:48:10 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [3] as [INTEGER] - [6] 
+2024-02-21 21:48:10 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:48:10 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [4] 
+2024-02-21 21:48:10 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:48:10 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [5] 
+2024-02-21 21:48:10 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:48:10 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [6] 
+2024-02-21 21:48:10 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    delete 
+    from
+        Department 
+    where
+        id=? 
+2024-02-21 21:48:10 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [4] 
+2024-02-21 21:48:10 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    delete 
+    from
+        Department 
+    where
+        id=? 
+2024-02-21 21:48:10 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [5] 
+2024-02-21 21:48:10 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    delete 
+    from
+        Department 
+    where
+        id=? 
+2024-02-21 21:48:10 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [6] 
+2024-02-21 21:48:10 [http-nio-8080-exec-6] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_,
+        department0_.created_date as created_2_1_,
+        department0_.`name` as name3_1_,
+        department0_.total_member as total_me4_1_,
+        department0_.`type` as type5_1_ 
+    from
+        Department department0_ 
+    where
+        1=1 
+    order by
+        department0_.total_member desc limit ? 
+2024-02-21 21:48:10 [http-nio-8080-exec-6] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:48:10 [http-nio-8080-exec-6] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [3] 
+2024-02-21 21:48:10 [http-nio-8080-exec-6] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:48:10 [http-nio-8080-exec-6] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [2] 
+2024-02-21 21:48:10 [http-nio-8080-exec-6] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:48:10 [http-nio-8080-exec-6] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [1] 
+2024-02-21 21:48:10 [http-nio-8080-exec-6] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:48:10 [http-nio-8080-exec-6] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [11] 
+2024-02-21 21:48:16 [http-nio-8080-exec-8] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_,
+        department0_.created_date as created_2_1_,
+        department0_.`name` as name3_1_,
+        department0_.total_member as total_me4_1_,
+        department0_.`type` as type5_1_ 
+    from
+        Department department0_ 
+    where
+        1=1 
+        and department0_.`type`=? 
+    order by
+        department0_.total_member desc limit ? 
+2024-02-21 21:48:16 [http-nio-8080-exec-8] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [VARCHAR] - [Dev] 
+2024-02-21 21:48:16 [http-nio-8080-exec-8] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:48:16 [http-nio-8080-exec-8] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [1] 
+2024-02-21 21:48:16 [http-nio-8080-exec-8] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:48:16 [http-nio-8080-exec-8] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [11] 
+2024-02-21 21:48:26 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_,
+        department0_.created_date as created_2_1_,
+        department0_.`name` as name3_1_,
+        department0_.total_member as total_me4_1_,
+        department0_.`type` as type5_1_ 
+    from
+        Department department0_ 
+    where
+        1=1 
+        and cast(department0_.created_date as date)>=? 
+        and department0_.`type`=? 
+    order by
+        department0_.total_member desc limit ? 
+2024-02-21 21:48:26 [http-nio-8080-exec-10] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [DATE] - [Thu Feb 29 00:00:00 ICT 2024] 
+2024-02-21 21:48:26 [http-nio-8080-exec-10] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [2] as [VARCHAR] - [Dev] 
+2024-02-21 21:48:35 [http-nio-8080-exec-2] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_,
+        department0_.created_date as created_2_1_,
+        department0_.`name` as name3_1_,
+        department0_.total_member as total_me4_1_,
+        department0_.`type` as type5_1_ 
+    from
+        Department department0_ 
+    where
+        1=1 
+        and cast(department0_.created_date as date)>=? 
+        and department0_.`type`=? 
+    order by
+        department0_.total_member desc limit ? 
+2024-02-21 21:48:35 [http-nio-8080-exec-2] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [DATE] - [Thu Feb 29 00:00:00 ICT 2024] 
+2024-02-21 21:48:35 [http-nio-8080-exec-2] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [2] as [VARCHAR] - [Dev] 
+2024-02-21 21:48:41 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_,
+        department0_.created_date as created_2_1_,
+        department0_.`name` as name3_1_,
+        department0_.total_member as total_me4_1_,
+        department0_.`type` as type5_1_ 
+    from
+        Department department0_ 
+    where
+        1=1 
+        and department0_.`type`=? 
+    order by
+        department0_.total_member desc limit ? 
+2024-02-21 21:48:41 [http-nio-8080-exec-3] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [VARCHAR] - [Dev] 
+2024-02-21 21:48:41 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:48:41 [http-nio-8080-exec-3] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [1] 
+2024-02-21 21:48:41 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:48:41 [http-nio-8080-exec-3] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [11] 
+2024-02-21 21:49:06 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_,
+        department0_.created_date as created_2_1_,
+        department0_.`name` as name3_1_,
+        department0_.total_member as total_me4_1_,
+        department0_.`type` as type5_1_ 
+    from
+        Department department0_ 
+    where
+        1=1 
+        and department0_.`type`=? 
+    order by
+        department0_.total_member desc limit ? 
+2024-02-21 21:49:06 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [VARCHAR] - [Dev] 
+2024-02-21 21:49:06 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:49:06 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [1] 
+2024-02-21 21:49:06 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:49:06 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [11] 
+2024-02-21 21:49:10 [http-nio-8080-exec-6] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_,
+        department0_.created_date as created_2_1_,
+        department0_.`name` as name3_1_,
+        department0_.total_member as total_me4_1_,
+        department0_.`type` as type5_1_ 
+    from
+        Department department0_ 
+    where
+        1=1 
+        and (
+            department0_.`name` like ?
+        ) 
+        and department0_.`type`=? 
+    order by
+        department0_.total_member desc limit ? 
+2024-02-21 21:49:10 [http-nio-8080-exec-6] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [VARCHAR] - [%Marketing%] 
+2024-02-21 21:49:10 [http-nio-8080-exec-6] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [2] as [VARCHAR] - [Dev] 
+2024-02-21 21:49:10 [http-nio-8080-exec-6] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:49:10 [http-nio-8080-exec-6] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [1] 
+2024-02-21 21:49:56 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_,
+        department0_.created_date as created_2_1_,
+        department0_.`name` as name3_1_,
+        department0_.total_member as total_me4_1_,
+        department0_.`type` as type5_1_ 
+    from
+        Department department0_ 
+    order by
+        department0_.`name` 
+2024-02-21 21:49:56 [http-nio-8080-exec-8] DEBUG o.h.SQL                                            - 
+    select
+        account0_.id as id1_0_,
+        account0_.department_id as departme7_0_,
+        account0_.first_name as first_na2_0_,
+        account0_.last_name as last_nam3_0_,
+        account0_.password as password4_0_,
+        account0_.`role` as role5_0_,
+        account0_.username as username6_0_,
+        concat(account0_.first_name,
+        ' ',
+        account0_.last_name)  as formula1_ 
+    from
+        `Account` account0_ 
+    where
+        1=1 limit ? 
+2024-02-21 21:49:56 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:49:56 [http-nio-8080-exec-10] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [3] 
+2024-02-21 21:49:56 [http-nio-8080-exec-8] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:49:56 [http-nio-8080-exec-8] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [1] 
+2024-02-21 21:49:56 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:49:56 [http-nio-8080-exec-10] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [1] 
+2024-02-21 21:49:56 [http-nio-8080-exec-8] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:49:56 [http-nio-8080-exec-8] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [2] 
+2024-02-21 21:49:56 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:49:56 [http-nio-8080-exec-10] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [2] 
+2024-02-21 21:49:56 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:49:56 [http-nio-8080-exec-8] DEBUG o.h.SQL                                            - 
+    select
+        count(account0_.id) as col_0_0_ 
+    from
+        `Account` account0_ 
+    where
+        1=1 
+2024-02-21 21:49:56 [http-nio-8080-exec-10] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [11] 
+2024-02-21 21:50:00 [http-nio-8080-exec-1] DEBUG o.h.SQL                                            - 
+    select
+        account0_.id as id1_0_,
+        account0_.department_id as departme7_0_,
+        account0_.first_name as first_na2_0_,
+        account0_.last_name as last_nam3_0_,
+        account0_.password as password4_0_,
+        account0_.`role` as role5_0_,
+        account0_.username as username6_0_,
+        concat(account0_.first_name,
+        ' ',
+        account0_.last_name)  as formula1_ 
+    from
+        `Account` account0_ 
+    where
+        1=1 
+        and account0_.`role`=? limit ? 
+2024-02-21 21:50:00 [http-nio-8080-exec-1] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [VARCHAR] - [MANAGER] 
+2024-02-21 21:50:00 [http-nio-8080-exec-1] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:50:00 [http-nio-8080-exec-1] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [1] 
+2024-02-21 21:51:23 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_,
+        department0_.created_date as created_2_1_,
+        department0_.`name` as name3_1_,
+        department0_.total_member as total_me4_1_,
+        department0_.`type` as type5_1_ 
+    from
+        Department department0_ 
+    where
+        1=1 
+    order by
+        department0_.total_member desc limit ? 
+2024-02-21 21:51:23 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:51:23 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [3] 
+2024-02-21 21:51:23 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:51:23 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [2] 
+2024-02-21 21:51:23 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:51:23 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [1] 
+2024-02-21 21:51:23 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:51:23 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [11] 
+2024-02-21 21:51:26 [http-nio-8080-exec-9] DEBUG o.h.SQL                                            - 
+    select
+        account0_.id as id1_0_,
+        account0_.department_id as departme7_0_,
+        account0_.first_name as first_na2_0_,
+        account0_.last_name as last_nam3_0_,
+        account0_.password as password4_0_,
+        account0_.`role` as role5_0_,
+        account0_.username as username6_0_,
+        concat(account0_.first_name,
+        ' ',
+        account0_.last_name)  as formula1_ 
+    from
+        `Account` account0_ limit ? 
+2024-02-21 21:51:26 [http-nio-8080-exec-9] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:51:26 [http-nio-8080-exec-9] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [1] 
+2024-02-21 21:51:26 [http-nio-8080-exec-9] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:51:26 [http-nio-8080-exec-9] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [2] 
+2024-02-21 21:51:26 [http-nio-8080-exec-9] DEBUG o.h.SQL                                            - 
+    select
+        count(account0_.id) as col_0_0_ 
+    from
+        `Account` account0_ 
+2024-02-21 21:51:29 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        account0_.id as id1_0_,
+        account0_.department_id as departme7_0_,
+        account0_.first_name as first_na2_0_,
+        account0_.last_name as last_nam3_0_,
+        account0_.password as password4_0_,
+        account0_.`role` as role5_0_,
+        account0_.username as username6_0_,
+        concat(account0_.first_name,
+        ' ',
+        account0_.last_name)  as formula1_ 
+    from
+        `Account` account0_ limit ? 
+2024-02-21 21:51:29 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:51:29 [http-nio-8080-exec-10] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [1] 
+2024-02-21 21:51:29 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:51:29 [http-nio-8080-exec-10] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [2] 
+2024-02-21 21:51:29 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        count(account0_.id) as col_0_0_ 
+    from
+        `Account` account0_ 
+2024-02-21 21:51:29 [http-nio-8080-exec-8] DEBUG o.h.SQL                                            - 
+    select
+        count(*) as col_0_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:51:29 [http-nio-8080-exec-8] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [3] 
+2024-02-21 21:51:29 [http-nio-8080-exec-8] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:51:29 [http-nio-8080-exec-8] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [3] 
+2024-02-21 21:51:29 [http-nio-8080-exec-8] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:51:29 [http-nio-8080-exec-8] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [3] 
+2024-02-21 21:51:37 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_,
+        department0_.created_date as created_2_1_,
+        department0_.`name` as name3_1_,
+        department0_.total_member as total_me4_1_,
+        department0_.`type` as type5_1_ 
+    from
+        Department department0_ 
+    order by
+        department0_.`name` 
+2024-02-21 21:51:37 [http-nio-8080-exec-1] DEBUG o.h.SQL                                            - 
+    select
+        account0_.id as id1_0_,
+        account0_.department_id as departme7_0_,
+        account0_.first_name as first_na2_0_,
+        account0_.last_name as last_nam3_0_,
+        account0_.password as password4_0_,
+        account0_.`role` as role5_0_,
+        account0_.username as username6_0_,
+        concat(account0_.first_name,
+        ' ',
+        account0_.last_name)  as formula1_ 
+    from
+        `Account` account0_ 
+    where
+        1=1 limit ? 
+2024-02-21 21:51:37 [http-nio-8080-exec-1] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:51:37 [http-nio-8080-exec-1] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [1] 
+2024-02-21 21:51:37 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:51:37 [http-nio-8080-exec-3] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [3] 
+2024-02-21 21:51:37 [http-nio-8080-exec-1] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:51:37 [http-nio-8080-exec-1] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [2] 
+2024-02-21 21:51:37 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:51:37 [http-nio-8080-exec-3] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [1] 
+2024-02-21 21:51:37 [http-nio-8080-exec-1] DEBUG o.h.SQL                                            - 
+    select
+        count(account0_.id) as col_0_0_ 
+    from
+        `Account` account0_ 
+    where
+        1=1 
+2024-02-21 21:51:37 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:51:37 [http-nio-8080-exec-3] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [2] 
+2024-02-21 21:51:37 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 21:51:37 [http-nio-8080-exec-3] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [11] 
+2024-02-21 21:51:38 [http-nio-8080-exec-2] DEBUG o.h.SQL                                            - 
+    select
+        account0_.id as id1_0_,
+        account0_.department_id as departme7_0_,
+        account0_.first_name as first_na2_0_,
+        account0_.last_name as last_nam3_0_,
+        account0_.password as password4_0_,
+        account0_.`role` as role5_0_,
+        account0_.username as username6_0_,
+        concat(account0_.first_name,
+        ' ',
+        account0_.last_name)  as formula1_ 
+    from
+        `Account` account0_ 
+    where
+        1=1 limit ?, ? 
+2024-02-21 21:51:38 [http-nio-8080-exec-2] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:51:38 [http-nio-8080-exec-2] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [2] 
+2024-02-21 21:51:38 [http-nio-8080-exec-2] DEBUG o.h.SQL                                            - 
+    select
+        count(account0_.id) as col_0_0_ 
+    from
+        `Account` account0_ 
+    where
+        1=1 
+2024-02-21 21:51:38 [http-nio-8080-exec-6] DEBUG o.h.SQL                                            - 
+    select
+        account0_.id as id1_0_,
+        account0_.department_id as departme7_0_,
+        account0_.first_name as first_na2_0_,
+        account0_.last_name as last_nam3_0_,
+        account0_.password as password4_0_,
+        account0_.`role` as role5_0_,
+        account0_.username as username6_0_,
+        concat(account0_.first_name,
+        ' ',
+        account0_.last_name)  as formula1_ 
+    from
+        `Account` account0_ 
+    where
+        1=1 limit ? 
+2024-02-21 21:51:38 [http-nio-8080-exec-6] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:51:38 [http-nio-8080-exec-6] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [1] 
+2024-02-21 21:51:38 [http-nio-8080-exec-6] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:51:38 [http-nio-8080-exec-6] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [2] 
+2024-02-21 21:51:38 [http-nio-8080-exec-6] DEBUG o.h.SQL                                            - 
+    select
+        count(account0_.id) as col_0_0_ 
+    from
+        `Account` account0_ 
+    where
+        1=1 
+2024-02-21 21:51:39 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        account0_.id as id1_0_,
+        account0_.department_id as departme7_0_,
+        account0_.first_name as first_na2_0_,
+        account0_.last_name as last_nam3_0_,
+        account0_.password as password4_0_,
+        account0_.`role` as role5_0_,
+        account0_.username as username6_0_,
+        concat(account0_.first_name,
+        ' ',
+        account0_.last_name)  as formula1_ 
+    from
+        `Account` account0_ 
+    where
+        1=1 limit ?, ? 
+2024-02-21 21:51:39 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:51:39 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [2] 
+2024-02-21 21:51:39 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        count(account0_.id) as col_0_0_ 
+    from
+        `Account` account0_ 
+    where
+        1=1 
+2024-02-21 21:51:39 [http-nio-8080-exec-7] DEBUG o.h.SQL                                            - 
+    select
+        account0_.id as id1_0_,
+        account0_.department_id as departme7_0_,
+        account0_.first_name as first_na2_0_,
+        account0_.last_name as last_nam3_0_,
+        account0_.password as password4_0_,
+        account0_.`role` as role5_0_,
+        account0_.username as username6_0_,
+        concat(account0_.first_name,
+        ' ',
+        account0_.last_name)  as formula1_ 
+    from
+        `Account` account0_ 
+    where
+        1=1 limit ?, ? 
+2024-02-21 21:51:39 [http-nio-8080-exec-7] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:51:39 [http-nio-8080-exec-7] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [2] 
+2024-02-21 21:51:39 [http-nio-8080-exec-7] DEBUG o.h.SQL                                            - 
+    select
+        count(account0_.id) as col_0_0_ 
+    from
+        `Account` account0_ 
+    where
+        1=1 
+2024-02-21 21:51:40 [http-nio-8080-exec-9] DEBUG o.h.SQL                                            - 
+    select
+        account0_.id as id1_0_,
+        account0_.department_id as departme7_0_,
+        account0_.first_name as first_na2_0_,
+        account0_.last_name as last_nam3_0_,
+        account0_.password as password4_0_,
+        account0_.`role` as role5_0_,
+        account0_.username as username6_0_,
+        concat(account0_.first_name,
+        ' ',
+        account0_.last_name)  as formula1_ 
+    from
+        `Account` account0_ 
+    where
+        1=1 limit ? 
+2024-02-21 21:51:40 [http-nio-8080-exec-9] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:51:40 [http-nio-8080-exec-9] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [1] 
+2024-02-21 21:51:40 [http-nio-8080-exec-9] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:51:40 [http-nio-8080-exec-9] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [2] 
+2024-02-21 21:51:40 [http-nio-8080-exec-9] DEBUG o.h.SQL                                            - 
+    select
+        count(account0_.id) as col_0_0_ 
+    from
+        `Account` account0_ 
+    where
+        1=1 
+2024-02-21 21:51:42 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        account0_.id as id1_0_,
+        account0_.department_id as departme7_0_,
+        account0_.first_name as first_na2_0_,
+        account0_.last_name as last_nam3_0_,
+        account0_.password as password4_0_,
+        account0_.`role` as role5_0_,
+        account0_.username as username6_0_,
+        concat(account0_.first_name,
+        ' ',
+        account0_.last_name)  as formula1_ 
+    from
+        `Account` account0_ 
+    where
+        1=1 limit ?, ? 
+2024-02-21 21:51:42 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:51:42 [http-nio-8080-exec-10] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [2] 
+2024-02-21 21:51:42 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        count(account0_.id) as col_0_0_ 
+    from
+        `Account` account0_ 
+    where
+        1=1 
+2024-02-21 21:51:50 [http-nio-8080-exec-8] DEBUG o.h.SQL                                            - 
+    select
+        account0_.id as id1_0_,
+        account0_.department_id as departme7_0_,
+        account0_.first_name as first_na2_0_,
+        account0_.last_name as last_nam3_0_,
+        account0_.password as password4_0_,
+        account0_.`role` as role5_0_,
+        account0_.username as username6_0_,
+        concat(account0_.first_name,
+        ' ',
+        account0_.last_name)  as formula1_ 
+    from
+        `Account` account0_ 
+    where
+        1=1 limit ?, ? 
+2024-02-21 21:51:50 [http-nio-8080-exec-8] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:51:50 [http-nio-8080-exec-8] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [2] 
+2024-02-21 21:51:50 [http-nio-8080-exec-8] DEBUG o.h.SQL                                            - 
+    select
+        count(account0_.id) as col_0_0_ 
+    from
+        `Account` account0_ 
+    where
+        1=1 
+2024-02-21 21:51:51 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        account0_.id as id1_0_,
+        account0_.department_id as departme7_0_,
+        account0_.first_name as first_na2_0_,
+        account0_.last_name as last_nam3_0_,
+        account0_.password as password4_0_,
+        account0_.`role` as role5_0_,
+        account0_.username as username6_0_,
+        concat(account0_.first_name,
+        ' ',
+        account0_.last_name)  as formula1_ 
+    from
+        `Account` account0_ 
+    where
+        1=1 limit ? 
+2024-02-21 21:51:51 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:51:51 [http-nio-8080-exec-4] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [1] 
+2024-02-21 21:51:51 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:51:51 [http-nio-8080-exec-4] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [2] 
+2024-02-21 21:51:51 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        count(account0_.id) as col_0_0_ 
+    from
+        `Account` account0_ 
+    where
+        1=1 
+2024-02-21 21:51:51 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        account0_.id as id1_0_,
+        account0_.department_id as departme7_0_,
+        account0_.first_name as first_na2_0_,
+        account0_.last_name as last_nam3_0_,
+        account0_.password as password4_0_,
+        account0_.`role` as role5_0_,
+        account0_.username as username6_0_,
+        concat(account0_.first_name,
+        ' ',
+        account0_.last_name)  as formula1_ 
+    from
+        `Account` account0_ 
+    where
+        1=1 limit ?, ? 
+2024-02-21 21:51:51 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 21:51:51 [http-nio-8080-exec-3] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [2] 
+2024-02-21 21:51:51 [http-nio-8080-exec-3] DEBUG o.h.SQL                                            - 
+    select
+        count(account0_.id) as col_0_0_ 
+    from
+        `Account` account0_ 
+    where
+        1=1 
+2024-02-21 22:02:40 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_,
+        department0_.created_date as created_2_1_,
+        department0_.`name` as name3_1_,
+        department0_.total_member as total_me4_1_,
+        department0_.`type` as type5_1_ 
+    from
+        Department department0_ 
+    where
+        1=1 
+    order by
+        department0_.total_member desc limit ? 
+2024-02-21 22:02:40 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 22:02:40 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [3] 
+2024-02-21 22:02:40 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 22:02:40 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [2] 
+2024-02-21 22:02:40 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 22:02:40 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [1] 
+2024-02-21 22:02:40 [http-nio-8080-exec-5] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 22:02:40 [http-nio-8080-exec-5] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [11] 
+2024-02-21 22:03:52 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        account0_.id as id1_0_,
+        account0_.department_id as departme7_0_,
+        account0_.first_name as first_na2_0_,
+        account0_.last_name as last_nam3_0_,
+        account0_.password as password4_0_,
+        account0_.`role` as role5_0_,
+        account0_.username as username6_0_,
+        concat(account0_.first_name,
+        ' ',
+        account0_.last_name)  as formula1_ 
+    from
+        `Account` account0_ limit ? 
+2024-02-21 22:03:52 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 22:03:52 [http-nio-8080-exec-4] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [1] 
+2024-02-21 22:03:52 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 22:03:52 [http-nio-8080-exec-4] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [2] 
+2024-02-21 22:03:52 [http-nio-8080-exec-4] DEBUG o.h.SQL                                            - 
+    select
+        count(account0_.id) as col_0_0_ 
+    from
+        `Account` account0_ 
+2024-02-21 22:03:55 [http-nio-8080-exec-6] DEBUG o.h.SQL                                            - 
+    select
+        account0_.id as id1_0_,
+        account0_.department_id as departme7_0_,
+        account0_.first_name as first_na2_0_,
+        account0_.last_name as last_nam3_0_,
+        account0_.password as password4_0_,
+        account0_.`role` as role5_0_,
+        account0_.username as username6_0_,
+        concat(account0_.first_name,
+        ' ',
+        account0_.last_name)  as formula1_ 
+    from
+        `Account` account0_ limit ? 
+2024-02-21 22:03:55 [http-nio-8080-exec-6] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 22:03:55 [http-nio-8080-exec-6] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [1] 
+2024-02-21 22:03:55 [http-nio-8080-exec-6] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_0_,
+        department0_.created_date as created_2_1_0_,
+        department0_.`name` as name3_1_0_,
+        department0_.total_member as total_me4_1_0_,
+        department0_.`type` as type5_1_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.id=? 
+2024-02-21 22:03:55 [http-nio-8080-exec-6] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [2] 
+2024-02-21 22:03:55 [http-nio-8080-exec-6] DEBUG o.h.SQL                                            - 
+    select
+        count(account0_.id) as col_0_0_ 
+    from
+        `Account` account0_ 
+2024-02-21 22:05:35 [http-nio-8080-exec-9] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as col_0_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.`name`=? limit ? 
+2024-02-21 22:05:35 [http-nio-8080-exec-9] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [VARCHAR] - [abbbb] 
+2024-02-21 22:05:35 [http-nio-8080-exec-9] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as col_0_0_ 
+    from
+        Department department0_ 
+    where
+        department0_.`name`=? limit ? 
+2024-02-21 22:05:35 [http-nio-8080-exec-9] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [VARCHAR] - [abbbb] 
+2024-02-21 22:05:35 [http-nio-8080-exec-9] DEBUG o.h.SQL                                            - 
+    insert 
+    into
+        Department
+        (created_date, `name`, total_member, `type`) 
+    values
+        (?, ?, ?, ?) 
+2024-02-21 22:05:35 [http-nio-8080-exec-9] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [TIMESTAMP] - [Wed Feb 21 22:05:35 ICT 2024] 
+2024-02-21 22:05:35 [http-nio-8080-exec-9] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [2] as [VARCHAR] - [abbbb] 
+2024-02-21 22:05:35 [http-nio-8080-exec-9] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [3] as [INTEGER] - [0] 
+2024-02-21 22:05:35 [http-nio-8080-exec-9] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [4] as [VARCHAR] - [Test] 
+2024-02-21 22:05:43 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        department0_.id as id1_1_,
+        department0_.created_date as created_2_1_,
+        department0_.`name` as name3_1_,
+        department0_.total_member as total_me4_1_,
+        department0_.`type` as type5_1_ 
+    from
+        Department department0_ 
+    where
+        1=1 
+    order by
+        department0_.total_member desc limit ? 
+2024-02-21 22:05:43 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 22:05:43 [http-nio-8080-exec-10] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [3] 
+2024-02-21 22:05:43 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 22:05:43 [http-nio-8080-exec-10] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [2] 
+2024-02-21 22:05:43 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 22:05:43 [http-nio-8080-exec-10] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [1] 
+2024-02-21 22:05:43 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 22:05:43 [http-nio-8080-exec-10] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [11] 
+2024-02-21 22:05:43 [http-nio-8080-exec-10] DEBUG o.h.SQL                                            - 
+    select
+        accounts0_.department_id as departme7_0_0_,
+        accounts0_.id as id1_0_0_,
+        accounts0_.id as id1_0_1_,
+        accounts0_.department_id as departme7_0_1_,
+        accounts0_.first_name as first_na2_0_1_,
+        accounts0_.last_name as last_nam3_0_1_,
+        accounts0_.password as password4_0_1_,
+        accounts0_.`role` as role5_0_1_,
+        accounts0_.username as username6_0_1_,
+        concat(accounts0_.first_name,
+        ' ',
+        accounts0_.last_name)  as formula1_1_ 
+    from
+        `Account` accounts0_ 
+    where
+        accounts0_.department_id=? 
+2024-02-21 22:05:43 [http-nio-8080-exec-10] TRACE o.h.t.d.s.BasicBinder                              - binding parameter [1] as [INTEGER] - [12] 

@@ -1,0 +1,12 @@
+eclipse.preferences.version=1
+encoding//src/main/java=UTF-8
+encoding//src/main/java/com/vti/controller/AccountController.java=UTF-8
+encoding//src/main/java/com/vti/controller/DepartmentController.java=UTF-8
+encoding//src/main/java/com/vti/service/AccountService.java=UTF-8
+encoding//src/main/java/com/vti/specification/account/AccountSpecification.java=UTF-8
+encoding//src/main/java/com/vti/specification/department/DepartmentSpecification.java=UTF-8
+encoding//src/main/resources=UTF-8
+encoding//src/main/resources/messages_fr.properties=UTF-8
+encoding//src/main/resources/messages_vi.properties=UTF-8
+encoding//src/test/java=UTF-8
+encoding/<project>=UTF-8
